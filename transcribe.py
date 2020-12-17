@@ -11,7 +11,7 @@ audio = video.audio
 audio.write_audiofile("ad3.wav")
 
 apikey = '#########'
-url = 'https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/d91c287d-28b9-4c0d-bf75-6ce09306b525'
+url = '####-6ce09306b525'
 
 authenticator = IAMAuthenticator(apikey)
 stt = SpeechToTextV1(authenticator=authenticator)
