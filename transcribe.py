@@ -10,7 +10,7 @@ video = me.VideoFileClip("story.mp4")
 audio = video.audio
 audio.write_audiofile("ad3.wav")
 
-apikey = 'P4BSEQ0hEaHft6frktNgenx1rz6xDwHHfDQ6tU9Oc_EG'
+apikey = '#########'
 url = 'https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/d91c287d-28b9-4c0d-bf75-6ce09306b525'
 
 authenticator = IAMAuthenticator(apikey)
